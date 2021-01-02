@@ -1,5 +1,3 @@
-
-
 'use strict'
 
 
@@ -35,11 +33,13 @@ $('#btSearch').on('click', function(){
           console.log("IMAGEM : ")
           console.log(value.image[0]["#text"])
           console.log("LINK ")
-          console.log(value.bio.links.link.href)*/
-          console.log(value)
-$('#nome_artista_api').html(value.name);
-$('#bio_artista_api').html(value.bio.content);
-$('#imagens_artista_api').html('<img src="' + value.image[3]["#text"] + '""/>');
+          console.log(value.bio.links.link.href)
+          console.log(value)*/
+
+
+$('#nome').html(value.name);
+$('#body').html(value.bio.content);
+$('#image').html('<img src="' + value.image[3]["#text"] + '""/>');
 
         });
 

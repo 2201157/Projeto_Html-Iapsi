@@ -27,11 +27,25 @@ $('#btSearch').on('click', function(){
 
         $.each(music, function(key, value){
     
+    /*
           console.log(value.trackmatches.track[0].name + value.trackmatches.track[0].artist)
           console.log(value.trackmatches.track[1].name + value.trackmatches.track[1].artist)
           console.log(value.trackmatches.track[2].name + value.trackmatches.track[2].artist)
           console.log(value.trackmatches.track[3].name + value.trackmatches.track[3].artist)
           console.log(value.trackmatches.track[4].name + value.trackmatches.track[4].artist)
+
+*/
+          $('#artista1').html(value.trackmatches.track[0].artist);
+          $('#musica1').html(value.trackmatches.track[0].name);
+          $('#artista2').html(value.trackmatches.track[1].artist);
+          $('#musica2').html(value.trackmatches.track[1].name);
+          $('#artista3').html(value.trackmatches.track[2].artist);
+          $('#musica3').html(value.trackmatches.track[2].name);
+          $('#artista4').html(value.trackmatches.track[3].artist);
+          $('#musica4').html(value.trackmatches.track[3].name);
+          $('#artista5').html(value.trackmatches.track[4].artist);
+          $('#musica5').html(value.trackmatches.track[4].name);
+          
 
         });
 
