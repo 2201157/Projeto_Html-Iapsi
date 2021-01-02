@@ -44,9 +44,6 @@ body {
 
 }
 
-
-element.style {
-}
 .fa, .fas {
     font-weight: 900;
     
@@ -118,8 +115,9 @@ i {
     font-size: 17px;
     border-radius: 25px;
 }
-.btn-primary{
+#btSearch{
   background-color: rgb(88, 199, 213);
+  border-color: rgb(88, 199, 213);
 }
 
 @media screen and (max-width: 800px) {
@@ -155,6 +153,15 @@ i {
   
 }
 
+
+.panel-body{
+  background-color: rgb(17, 34, 43);
+}
+
 .media-object{
   max-width: none !important;
+}
+
+.panel-heading {
+  padding: 0;
 }

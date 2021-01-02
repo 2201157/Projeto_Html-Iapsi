@@ -22,6 +22,7 @@
 @media screen and (max-width: 800px) {
   .topnav input:not(:first-child) {display: none;}
   .topnav.responsive input[type=text]{
+    
     float: none !important;
     display: inline-block !important;
     text-align: left !important;
@@ -50,10 +51,6 @@
 
 
   }
-  .topnav.responsive   {
-    
-  }
-  
 
   }
   

@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    align-items: center;
+    display: inline;
+    margin: auto;
+}
+
+body{
+    margin: 0;
+    font-family: Arial;
+
+}
+
+.galeria{
+
+    margin-top: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.galeria2{
+
+    margin-top: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.galeria img{
+    border-radius: 15%;
+    position: center;
+    opacity: 0.5;
+    cursor: pointer;
+    width: 150px;
+    margin: 5px;
+    margin-right: 40px;
+}
+
+.galeria2 img{
+
+    border-radius: 15%;
+    position: center;
+    opacity: 0.5;
+    cursor: pointer;
+    width: 150px;
+    margin: 5px;
+    margin-right: 40px;
+    
+}
+
+.galeria img:hover{
+    opacity: 2;
+
+}
+
+.galeria2 img:hover{
+    opacity: 2;
+
+
+}
+
+.conteiner{
+    position: relative;
+    display: none;
+    width: 500px;
+    margin: auto;
+}
+.conteiner img{
+    width: 100%;
+}
+
+.btnFechar{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    float: right;
+}
+
+
+
+input[type=text], input[type=email], textarea{
+    height: 35px;
+}
+
