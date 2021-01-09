@@ -1,46 +1,37 @@
 
-input[type=text], input[type=email], textarea{
-    height: 35px;
-}
 #main1 {
     padding-top: 50px;
-    display: block;
     text-align: justify;
-    padding-left: 5px;
     padding-right: 10px;
     padding-bottom: 50px;
+
 }
 
 .h2_main{
-
+    display: flex;
+    padding-left: 35px;
     font-size: 15px;
     color: white;
-    padding-left: 300px;
-    margin-left: 5px;
      
 }
 
 .h5_main{
-
+    display: flex;
+    padding-left: 35px;
+    font-size: 14px;
     color: rgb(0, 179, 255);
-    padding-left: 300px;
-    padding-right: 40px;
-    margin-left: 5px;
+
    
 }
 
 #foto1{
     margin-left: 100px;
-    display: block;
-    margin-right:auto;
     float: left;
     border-radius: 15%;
-    padding-right:25px;
 
 }
 .proximo{
     float: right;
-    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -55,7 +46,6 @@ input[type=text], input[type=email], textarea{
 
 .anterior{
     float: left;
-    display: inline-block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -67,3 +57,65 @@ input[type=text], input[type=email], textarea{
     margin-top: 40px;
     margin-left: 100px;
 }
+
+
+@media (max-width: 992px) {
+    #foto1{
+        width: 410px;
+        margin-left: 50px;
+    }
+    .h2_main{
+        display: flex;
+        font-size: 12px;
+    }
+    .h5_main{
+        font-size: 11px;
+        display: flex;
+    }
+    .proximo{
+
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 35px;
+        padding: 12px 14px;
+        }
+    .anterior{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 35px;
+        padding: 12px 14px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #foto1{
+        width: 230px;
+        margin-left: 30px;
+    }
+    .h2_main{
+        padding-left: 15px;
+        display: flex;
+        font-size: 7px;
+    }
+    .h5_main{
+        font-size: 7px;
+        padding-left: 15px;
+        display: flex;
+    }
+    .proximo{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 35px;
+    padding: 10px 12px;
+    }
+    .anterior{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding: 10px 12px;
+    }
+
+}
+

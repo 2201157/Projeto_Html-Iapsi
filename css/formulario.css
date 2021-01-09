@@ -1,6 +1,4 @@
-body{
-    margin: 0;
-}
+
 
 .formulario{
     width: 800px;
@@ -8,14 +6,10 @@ body{
     padding-bottom: 20px;
     padding-right: 50px;
     font-size: 25px;
-} 
-
-
-
+}
 
 .satisfeito{
     font-size: 20px;
-
 }
 
 .formulario p {
@@ -46,14 +40,8 @@ pre{
     display: block;
     width: 100%;
 }
-.radiobox label{
-    width: auto;
-    display: inline-block;
-}
-.btn-primary{
-    background-color: #337ab7;
-    border-color: #2e6da4;
-}
+
+
 input[type=text],
 input[type=email],
 textarea{
@@ -80,21 +68,16 @@ textarea{
 input[type=submit]{
     display: block;
     background-color: rgb(17, 34, 43);
-    height: 35px;
     border: none;
     outline: 0;
     cursor: pointer;
-    width: 100px;
-    margin: 0 auto;
+    width: 200px;
     text-align: center;
     border-radius: 5px;
     height: 40px;
-    width: 200px;
     color: white;
     border: 1px solid white;
 }
-
-
 .submit{
     padding-right: 600px;
 }

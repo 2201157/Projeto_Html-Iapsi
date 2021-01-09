@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 #main{
     align-items: center;
     display: inline;
@@ -12,6 +10,12 @@ body{
     font-family: Arial;
 
 }
+#main p{
+    padding-left: 40px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
 
 .galeria{
 
@@ -19,18 +23,16 @@ body{
     display: flex; 
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .galeria2{
 
-    margin-top: 40px;
+    margin-top: 30px;
     display: flex; 
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
 
 }
 .galeria img{
@@ -92,3 +94,33 @@ input[type=text], input[type=email], textarea{
     height: 35px;
 }
 
+
+@media (max-width: 992px) {
+
+    .galeria img{
+        width: 120px;
+        margin-right: 10px;
+    }
+    .galeria2 img{
+        width: 120px;
+        margin-right: 10px;
+    }
+    #main p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .galeria img{
+        width: 80px;
+        margin-right: 7px;
+    }
+    .galeria2 img{
+        width: 80px;
+        margin-right: 7px;
+    }
+    #main p{
+        font-size: 20px;
+    }
+}

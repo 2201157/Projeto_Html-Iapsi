@@ -1,0 +1,88 @@
+
+#m_main{
+  color: white;
+  align-items: center;
+  padding: 50px;
+}
+
+#Nome{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#image{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+#body{
+  padding-bottom: 30px;
+}
+
+th{
+  height: 40px;
+  padding-left: 10px;
+  background-color: rgb(88, 199, 213);
+  font-size: 20px;
+}
+
+td{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.artista{
+  padding-right: 30px;
+}
+
+
+#botao1{
+  height: 40px;
+  border-radius: 15%;
+  font-size: 15px;
+  background-color: rgb(88, 199, 213);
+}
+
+#botao2{
+  height: 40px;
+  border-radius: 15%;
+  font-size: 15px;
+  background-color: rgb(88, 199, 213);
+}
+
+#botao3{
+  height: 40px;
+  border-radius: 15%;
+  font-size: 15px;
+  background-color: rgb(88, 199, 213);
+}
+
+#botao4{
+  height: 40px;
+  border-radius: 15%;
+  font-size: 15px;
+  background-color: rgb(88, 199, 213);
+}
+
+#botao5{
+  height: 40px;
+  border-radius: 15%;
+  font-size: 15px;
+  background-color: rgb(88, 199, 213);
+}
+
+#tabela{
+  display: none;
+  padding-top: 35px;
+  margin: auto;
+  justify-content: center;
+}
+
+#resultado{
+  display: none;
+}
