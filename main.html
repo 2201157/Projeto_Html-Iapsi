@@ -57,7 +57,7 @@
 
   		<a href="top10principal.html">Top Músicas</a>
 
-  		<a href="#">Favoritos</a>
+  		<a href="favoritos.html">Favoritos</a>
 
 		<button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 		
@@ -97,43 +97,45 @@
 <th></th>
 </tr>
 
-<tr>
-	<td class="artista" class="alinhar"><div id="artista1">
+<tr  id="music-0">
+	<td class="artista" class="alinhar"><div class="music-author">
 	</div></td>
-	<td><div id="musica1">
+	<td><div class="music-title">
 	</div></td>
-	<td><button id="botao1">Adicionar</button></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-0")>Adicionar</button></td>
+	
 </tr>
 
-<tr>
-	<td class="artista" class="alinhar"><div id ="artista2">
+<tr  id="music-1">
+	<td class="artista" class="alinhar"><div class="music-author">
 	</div></td>
-	<td><div id ="musica2">	
+	<td><div class="music-title">	
 	</div></td>
-	<td><button id="botao2">Adicionar</button></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-1">Adicionar</button></td>
+	
 </tr>
 
-<tr>
-	<td class="artista" class="alinhar"><div id ="artista3">
+<tr  id="music-2">
+	<td class="artista" class="alinhar"><div class="music-author">
 	</div></td>
-	<td><div id ="musica3">	
+	<td><div class="music-title">	
 	</div></td>
-	<td><button id="botao3">Adicionar</button></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-2">Adicionar</button></td>
 </tr>
 
-<tr>
-	<td class="artista" class="alinhar"><div id ="artista4">
+<tr  id="music-3">
+	<td class="artista" class="alinhar"><div class="music-author">
 	</div></td>
-	<td><div id ="musica4">	
+	<td><div class="music-title">	
 	</div></td>
-	<td><button id="botao4">Adicionar</button></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-3">Adicionar</button></td>
 </tr>
-<tr>
-	<td class="artista" class="alinhar"><div id ="artista5">
+<tr  id="music-4">
+	<td class="artista" class="alinhar"><div class="music-author">
 	</div></td>
-	<td><div id ="musica5">	
+	<td><div class="music-title">	
 	</div></td>
-	<td><button id="botao5">Adicionar</button></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-4">Adicionar</button></td>
 </tr>
 
 			</table>
@@ -173,169 +175,169 @@
 
   				<div class="carousel-inner">
 
-    				<div class="item active">
+    				<div class="item active" >
 
-      					<img  class ="tamaho_img"src="img/fotos_carousel/u2.png">
+      					<img  class ="tamaho_img"src="" id = "f1">
 
-      					<div class="carousel-caption">
+      					<div class="carousel-caption" >
 
-        					<h3>U2</h3>
+        					<h3 id="f1_inner"></h3>
 
-        					<p>All that you can't leave behind</p>
+        					<p id="f1_inner_p"  method = "POST"></p>
 
-        					<a href="u2.html">Ver mais detalhes</a>
-
-      					</div>
-
-    				</div>
-
-
-    				<div class="item">
-
-      					<img src="img/fotos_carousel/iris.png">
-
-      					<div class="carousel-caption">
-
-        					<h3>Irís</h3>
-
-        					<p>Há sempre um amanhã</p>
-
-        					<a href="iris.html">Ver mais detalhes</a>
+        					<a href="falling.html" action ="falling.html" id = "bora">Ver mais detalhes</a>
 
       					</div>
 
     				</div>
 
 
-    				<div class="item">
+    				<div class="item" >
 
-				      <img src="img/fotos_carousel/coldplay.png" class = "album_tamanho">
+      					<img src="" id = "f2" >
 
-				      <div class="carousel-caption">
+      					<div class="carousel-caption" id="f2">
 
-					        <h3>ColdPlay</h3>
+        					<h3 id="f2_inner"></h3>
 
-					        <p>Paradise</p>
+        					<p id="f2_inner_p"></p>
 
-					        <a href="coldplay.html">Ver mais detalhes</a>
+        					<a href="coldplay.html">Ver mais detalhes</a>
+
+      					</div>
+
+    				</div>
+
+
+    				<div class="item" >
+
+				      <img src="" class = "album_tamanho" id = "f3">
+
+				      <div class="carousel-caption" >
+
+					        <h3 id="f3_inner"></h3>
+
+					        <p id="f3_inner_p"></p>
+
+					        <a href="evanescence.html">Ver mais detalhes</a>
 
 			      		</div>
 
 			      	</div>
 
 
-    				<div class="item">
+    				<div class="item" >
 
-				      <img src="img/fotos_carousel/evanascence.png" class = "album_tamanho">
+				      <img src="" class = "album_tamanho" id = "f4">
 
-				      <div class="carousel-caption">
+				      <div class="carousel-caption"  >
 
-					        <h3>Evanescence</h3>
+					        <h3 id="f4_inner"></h3>
 
-					        <p>Lithium</p>
+					        <p id="f4_inner_p"></p>
 
-					        <a href="evanescence.html">Ver mais detalhes</a>
+					        <a href="nickelback.html">Ver mais detalhes</a>
 
       					</div>
 
     				</div>
 
 
-    				<div class="item">
+    				<div class="item" >
 
-      				<img src="img/fotos_carousel/nickelback.png" class = "album_tamanho">
+      				<img src="" class = "album_tamanho" id = "f5">
 
-      				<div class="carousel-caption">
+      				<div class="carousel-caption" >
 
-				        <h3>NickelBack</h3>
+				        <h3 id="f5_inner"></h3>
 
-				        <p>Hero</p>
-
-				        <a href="nickelback.html">Ver mais detalhes</a>
-
-      				</div>
-
-    			</div>
-
-    			<div class="item">
-
-			      <img src="img/fotos_carousel/falling.png" class = "album_tamanho">
-
-			      <div class="carousel-caption">
-
-        				<h3>Falling in Reverse</h3>
-
-				        <p>The drug in me is reimagined</p>
-
-				        <a href="falling.html">Ver mais detalhes</a>
-
-      				</div>
-
-    			</div>
-
-
-    			<div class="item">
-
-			      <img src="img/fotos_carousel/slowdown.png" class = "album_tamanho">
-
-			      <div class="carousel-caption">
-
-				        <h3>Maverick Sabre</h3>
-
-				        <p>Slow Down</p>
+				        <p id="f5_inner_p"></p>
 
 				        <a href="slowdown.html">Ver mais detalhes</a>
+
+      				</div>
+
+    			</div>
+
+    			<div class="item" >
+
+			      <img src="" class = "album_tamanho" id = "f6">
+
+			      <div class="carousel-caption">
+
+        				<h3 id="f6_inner"></h3>
+
+				        <p id="f6_inner_p"></p>
+
+				        <a href="u2.html">Ver mais detalhes</a>
+
+      				</div>
+
+    			</div>
+
+
+    			<div class="item" >
+
+			      <img src="" class = "album_tamanho" id = "f7">
+
+			      <div class="carousel-caption">
+
+				        <h3  id="f7_inner"></h3>
+
+				        <p  id="f7_inner_p"></p>
+
+				        <a href="lemonade.html">Ver mais detalhes</a>
 
     				</div>
 
    				</div>
 
 
-    			<div class="item">
+    			<div class="item" >
 
-      				<img src="img/fotos_carousel/lemonade.png" class = "album_tamanho">
+      				<img src="" class = "album_tamanho" id = "f8" >
 
-      				<div class="carousel-caption">
+      				<div class="carousel-caption" >
 
-				        <h3>Internet Money</h3>
+				        <h3 id="f8_inner"></h3>
 
-				        <p>Lemonade</p>
+				        <p id="f8_inner_p"></p>
 
-				        <a href="lemonade.html">Ver mais detalhes</a>
-
-      				</div>
-
-    			</div>
-
-
-    			<div class="item">
-
-      				<img src="img/fotos_carousel/xtense.png" class = "album_tamanho">
-
-      				<div class="carousel-caption">
-
-				        <h3>Xtense</h3>
-
-				        <p>P De Pablito</p>
-
-				        <a href="xtense.html">Ver mais detalhes</a>
+				        <a href="iris.html">Ver mais detalhes</a>
 
       				</div>
 
     			</div>
 
 
-    			<div class="item">
+    			<div class="item" >
 
-			      <img src="img/fotos_carousel/scorpions.png" class = "album_tamanho">
+      				<img src="" class = "album_tamanho" id = "f9">
 
-			      <div class="carousel-caption">
+      				<div class="carousel-caption" >
 
-			        <h3>Scorpions</h3>
+				        <h3 id="f9_inner"></h3>
 
-			        <p>You And I</p>
+				        <p id="f9_inner_p"></p>
 
-			        <a href="scorpions.html">Ver mais detalhes</a>
+				        <a href="scorpions.html">Ver mais detalhes</a>
+
+      				</div>
+
+    			</div>
+
+
+    			<div class="item" >
+
+			      <img src="" class = "album_tamanho" id = "f10">
+
+			      <div class="carousel-caption" >
+
+			        <h3 id="f10_inner"></h3>
+
+			        <p id="f10_inner_p"></p>
+
+			        <a href="xtense.html">Ver mais detalhes</a>
 
       			</div>
 
@@ -462,7 +464,7 @@
 		
 			<a href="top10principal.html">Top Músicas</a> <br />
 		
-			<a href="#">Favoritos</a> <br />
+			<a href="favoritos.html">Favoritos</a> <br />
 	
 
 			</p>
@@ -521,11 +523,14 @@
 
 	<script src="js/mp3_js.js"></script>
 
-	<script src="js/obter_informacao_artista.js"></script>
 
 	<script type="text/javascript" src="js/pesquisar.js"></script>
 
 	<script type="text/javascript" src="js/pesquisar_musicas.js"></script>
+
+	<script type="text/javascript" src="js/musicas_main.js"></script>
+	
+	<script src="js/local_storage_detalhes.js"></script>
 	
 
 </body>

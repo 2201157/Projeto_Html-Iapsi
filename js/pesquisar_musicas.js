@@ -24,28 +24,18 @@ $('#btSearch').on('click', function(){
         url: "http://ws.audioscrobbler.com/2.0/?method=track.search&track=" + valorPesquisa +"&api_key=cb5873017d844ca90043a3eae82f9055&limit=5&format=json"
     }).done(function(music){
        
+        var i = 0
 
         $.each(music, function(key, value){
     
-    /*
-          console.log(value.trackmatches.track[0].name + value.trackmatches.track[0].artist)
-          console.log(value.trackmatches.track[1].name + value.trackmatches.track[1].artist)
-          console.log(value.trackmatches.track[2].name + value.trackmatches.track[2].artist)
-          console.log(value.trackmatches.track[3].name + value.trackmatches.track[3].artist)
-          console.log(value.trackmatches.track[4].name + value.trackmatches.track[4].artist)
 
-*/
-          $('#artista1').html(value.trackmatches.track[0].artist);
-          $('#musica1').html(value.trackmatches.track[0].name);
-          $('#artista2').html(value.trackmatches.track[1].artist);
-          $('#musica2').html(value.trackmatches.track[1].name);
-          $('#artista3').html(value.trackmatches.track[2].artist);
-          $('#musica3').html(value.trackmatches.track[2].name);
-          $('#artista4').html(value.trackmatches.track[3].artist);
-          $('#musica4').html(value.trackmatches.track[3].name);
-          $('#artista5').html(value.trackmatches.track[4].artist);
-          $('#musica5').html(value.trackmatches.track[4].name);
+            for ( i = 0; i <=4;i++ ){
+
+          $('#music-'+i+' .music-author').html(value.trackmatches.track[i].artist);
+          $('#music-'+i+' .music-title').html(value.trackmatches.track[i].name);
+        
           
+          }
 
         });
 
