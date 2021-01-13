@@ -1,0 +1,23 @@
+#fav{
+color: white;
+}
+
+.textoFav{
+    align-content: center;
+
+}
+
+.musicaFav{
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.favBotao{
+    width: 35px;
+    height: 35px;
+    border-radius: 15%;
+    background-color: rgba(240, 14, 14, 0.612);
+    cursor: pointer;
+    touch-action: manipulation;
+    border: 1px solid;
+}

@@ -22,9 +22,9 @@
 
 	<link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
 
-	<link rel="stylesheet" type="text/css" href="css/informacao_falling.css">
+	<link rel="stylesheet" type="text/css" href="css/favoritos.css">
 	
-
+	<link rel="stylesheet" type="text/css" href="css/main_resultados.css">
     
 
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
@@ -50,7 +50,7 @@
 
 		<a href="top10principal.html">Top Músicas</a>
 
-		<a href="#about">Favoritos</a>
+		<a href="favoritos.html">Favoritos</a>
 
 	  <button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 	  
@@ -62,39 +62,82 @@
 	  <i class="fa fa-bars"></i>
 		</a>	    
   </div>
+  
+<div id ="m_main">
 
+	<h3 id="resultado" class="panel-title">Resultados da Pesquisa</h3>
 
-
-<div id="main1">
-
-	<div id = "foto1">
-
-		<img src= "">
+	<div id = "Nome">
 
 	</div>
 
-	<div id = "banda">
+	<div id  = "body">
 
 	</div>
 
-	<div id = "musica">
+	<div id = "image">
 
 	</div>
 
-	<div id = "album_foto">
+<table id="tabela">
+<tr>
+<th>Artista</th>
+<th>Musica</th>
+<th></th>
+</tr>
 
-		<img src ="">
+<tr>
+<td class="artista"><div id="artista0">
+</div></td>
+<td><div id="musica0">
+</div></td>
+<td><button id="botao1">Adicionar</button></td>
+</tr>
 
-	</div>	
+<tr>
+<td class="artista"><div id ="artista1">
+</div></td>
+<td><div id ="musica1">	
+</div></td>
+<td><button id="botao2">Adicionar</button></td>
+</tr>
 
-	
+<tr>
+<td class="artista"><div id ="artista2">
+</div></td>
+<td><div id ="musica2">	
+</div></td>
+<td><button id="botao3">Adicionar</button></td>
+</tr>
 
-	
-		<a class="anterior" href="evanescence.html">Anterior</a>
-		<a class="proximo" href="iris.html">Próximo</a>
+<tr>
+<td class="artista"><div id ="artista3">
+</div></td>
+<td><div id ="musica3">	
+</div></td>
+<td><button id="botao4">Adicionar</button></td>
+</tr>
+<tr>
+<td class="artista"><div id ="artista4">
+</div></td>
+<td><div id ="musica4">	
+</div></td>
+<td><button id="botao5">Adicionar</button></td>
+</tr>
 
+</table>
 </div>
 
+
+
+<div id="fav">
+<p class="musicaFav">As minhas Músicas favoritas</p>
+<table  id="playlist-table">
+	
+	
+</table>
+
+</div>
 
 
 
@@ -106,18 +149,26 @@
  
 		<p class="footer-links">
 		<a href="main.html">Home</a> <br />
-
+	
 		<a href="detalhes.html">Detalhes</a> <br />
 	
 		<a href="top10principal.html">Top Músicas</a> <br />
 	
-		<a href="#">Favoritos</a> <br />
+		<a href="favoritos.html">Favoritos</a> <br />
+	
+
 		</p>
+ 
+		
 		</div>
  
 		<div class="footer-center">
+ 
+		<div>
 		
 		<p><a href="formulario.html">Enviar Opinião</a></p>
+		</div>
+ 
 		</div>
  
 		<div class="footer-right">
@@ -126,11 +177,13 @@
 		<span>Copyright 2021 by: <br /></span>
 	Alexandre Levchenko<br />Rodrigo Peres<br />Sandro Pinto<br />2021 - Projeto (Web - Cliente)
 		</p>
-		</div>
+ 
 		
 	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/detalhes.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -141,11 +194,13 @@
  	<script  src="js/main_responsive_menu.js"></script>
 
 	<script src="js/fotos_header_home.js"></script>
-
-	<script src ="js/detalhes_musicas.js"></script>
-
-	<script src="js/local_storage_detalhes.js"></script>
 	 
+	<script type="text/javascript" src="js/pesquisar.js"></script>
+
+	<script type="text/javascript" src="js/pesquisar_musicas.js"></script>
+
+	<script type="text/javascript" src="js/local_storage_detalhes.js"></script>
+
 
 
 </body>
