@@ -60,6 +60,7 @@ function apagar (index){
    musics = musics.filter((_, i) => i !== index);
 
    localStorage.setItem(configs.PLAYLIST_KEY, JSON.stringify(musics));
+   location.reload();
 
 }
 

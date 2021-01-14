@@ -19,9 +19,19 @@ function alb (){
 
             $('#album_foto').html('<img src="' + value.albummatches.album[0].image[2]['#text'] + '""/>')
 
+             var url_api = JSON.stringify(value.albummatches.album[0].url);
+
+             
+
+             $('#url').append($("<a href='"+value.albummatches.album[0].url+"'></a>").text(value.albummatches.album[0].url))
+
+             });
+
+
+
             });
 
-       })
+       
 
 
 }
