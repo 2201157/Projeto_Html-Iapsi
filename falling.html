@@ -22,7 +22,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
 
-	<link rel="stylesheet" type="text/css" href="css/informacao_falling.css">
+	<link rel="stylesheet" type="text/css" href="css/informacao_musicas.css">
 	
 
     
@@ -44,13 +44,15 @@
 	<div class="topnav" id="myTopnav">
 
   		
-		<a href="main.html" class="active">Home</a>
+		<a href="main.html">Home</a>
 
-		<a href="detalhes.html">Detalhes</a>
+		<a href="detalhes.html" class="active">Detalhes</a>
 
 		<a href="top10principal.html">Top Músicas</a>
 
-		<a href="#about">Favoritos</a>
+		<a href="favoritos.html">Favoritos</a>
+
+		<a id="botao" href="">Informação last.fm</a>
 
 	  <button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 	  
@@ -67,38 +69,23 @@
 
 <div id="main1">
 
-	<div id = "foto1">
+	<img src="" alt="falling" id="f1">
 
-		<img src= "">
+	<h2 class ="h2_main">Banda: <h5 class="h5_main"><div id= "banda"></div></h5></h2>
 
-	</div>
+	<h2 class ="h2_main">Nome da musica: <h5 class="h5_main"><div id= "musica"></div></h5> </h2>
 
-	<div id = "banda">
+	<h2 class ="h2_main">Vocalista: <h5 class="h5_main">Ronnie Radke</h5> </h2>
 
-	</div>
-
-	<div id = "musica">
-
-	</div>
-
-	<div id = "album_foto">
-
-		<img src ="">
-
-	</div>
-
-	<div >
-
-		<a id = "url" href=""></a>
-
-	</div>	
-
+	<h2 class ="h2_main">Género: <h5 class="h5_main">Rock</h5></h2>
 	
-
+	<h2 class ="h2_main">Data de lançamento: <h5 class="h5_main">2020</h5></h2>
 	
-		<a class="anterior" href="evanescence.html">Anterior</a>
-		<a class="proximo" href="iris.html">Próximo</a>
+	<h2 class ="h2_main">Informação extra:</h2>
 
+	<h5 class="h5_main">"The Drug in Me Is You" é o segundo single do álbum de<br> estreia The Drug in Me Is You , da banda Falling in Reverse.<br> Foi lançado em 28 de junho de 2011.</h5>
+	<a class="anterior" href="saintPablo.html">Anterior</a>
+	<a class="proximo" href="coldplay.html">Próximo</a>
 </div>
 
 
@@ -117,7 +104,7 @@
 	
 		<a href="top10principal.html">Top Músicas</a> <br />
 	
-		<a href="#">Favoritos</a> <br />
+		<a href="favoritos.html">Favoritos</a> <br />
 		</p>
 		</div>
  
@@ -135,8 +122,7 @@
 		</div>
 		
 	</footer>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -148,11 +134,9 @@
 
 	<script src="js/fotos_header_home.js"></script>
 
-	<script src ="js/detalhes_musicas.js"></script>
-
-	<script src="js/local_storage_detalhes.js"></script>
+	<script type="text/javascript" src="js/api_para_detalhes.js"></script>
 	 
-
+	<script src ="js/detalhes_musicas_falling.js"></script>
 
 </body>
 </html>

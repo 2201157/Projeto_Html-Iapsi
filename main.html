@@ -31,11 +31,12 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
 
-	<link rel="stylesheet" type="text/css" href="css/mp3_css.css">
-
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="css/main_resultados.css">
+
+	<link rel="stylesheet" type="text/css" href="css/player.css">
 
 
 
@@ -51,13 +52,13 @@
 	<div class="topnav" id="myTopnav">
 
   		
-  		<a href="main.html" class="active">Home</a>
+  		<a href="main.html" class="active" class="sublinhado">Home</a>
 
-  		<a href="detalhes.html">Detalhes</a>
+  		<a class="sublinhado" href="detalhes.html">Detalhes</a>
 
-  		<a href="top10principal.html">Top Músicas</a>
+  		<a class="sublinhado" href="top10principal.html">Top Músicas</a>
 
-  		<a href="favoritos.html">Favoritos</a>
+  		<a class="sublinhado" href="favoritos.html">Favoritos</a>
 
 		<button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 		
@@ -371,76 +372,37 @@
 
 	</div>
           
-		<div class="player"> 
-  
-    		<!-- Define the section for displaying details -->
-    		<div class="details"> 
+		<div>
 
-      			<div class="now-playing">PLAYING x OF y</div> 
+	    <audio src="./assets/music/Evanescence.mp3" id="song"></audio>
 
-      			<div class="track-art"></div> 
+	    <div class="container">  
+	        <div class="box"></div>      
+	        
+	        
+	        <img src="./assets/icons/play.png" onclick="playPause()" id="play-pause" />
+	        <img src="./assets/icons/forward.png" onclick="nextSong()" id="next-song" />
+	        <img src="./assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
 
-      			<div class="track-name">Track Name</div> 
+	        <div class="song-artist">Evanescence</div>
+	        <div class="song-title">Lithium</div>
 
-      			<div class="track-artist">Track Artist</div> 
+	        <!-- Input element for progress bar - min=0 starting value of every song - max length will change per song so leave empty -->
+	        
+	        <input 
+	            type="range" 
+	            id="progress-bar" 
+	            min="0" 
+	            max="" 
+	            value="0" 
+	            onchange="changeProgressBar()"
+	        />
 
-    		</div> 
-  
-    		<!-- Define the section for displaying track buttons -->
+	        <div class="currentTime"></div>
+	        <div class="durationTime"></div>
+	    </div>
 
-    		<div class="buttons">
-
-		      <div class="prev-track" onclick="prevTrack()"> 
-
-		        <i class="fa fa-step-backward fa-2x"></i>
-
-		      </div> 
-
-		      <div class="playpause-track" onclick="playpauseTrack()"> 
-
-		        <i class="fa fa-play-circle fa-5x"></i> 
-
-		      </div> 
-
-		      <div class="next-track" onclick="nextTrack()"> 
-
-		        <i class="fa fa-step-forward fa-2x"></i> 
-
-		      </div>
-
-		   </div> 
-  
-    		<!-- Define the section for displaying the seek slider-->
-
-    		<div class="slider_container">
-
-      		<div class="current-time">00:00</div> 
-
-      			<input type="range" min="1" max="100"
-
-        			value="0" class="seek_slider" onchange="seekTo()"> 
-
-      		<div class="total-duration">00:00</div> 
-
-    		</div> 
-  
-
-    		<!-- Define the section for displaying the volume slider-->
-
-    		<div class="slider_container"> 
-
-      			<i class="fa fa-volume-down"></i> 
-
-      			<input type="range" min="1" max="100"
-
-        		value="99" class="volume_slider" onchange="setVolume()"> 
-
-      			<i class="fa fa-volume-up"></i> 
-
-    		</div> 
-
-  		</div> 
-	
+ 	</div>
 
 	</div>
 
@@ -515,13 +477,8 @@
 
  	<!--script src="js/main_carrousel.js"></script-->
 
- 	<script type="text/javascript" src="js/lastfm.api.md5.js"></script>
+ 	
 
-	<script type="text/javascript" src="js/lastfm.api.js"></script>
-
-	<script type="text/javascript" src="js/lastfm.api.cache.js"></script>
-
-	<script src="js/mp3_js.js"></script>
 
 
 	<script type="text/javascript" src="js/pesquisar.js"></script>
@@ -531,7 +488,8 @@
 	<script type="text/javascript" src="js/musicas_main.js"></script>
 	
 	<script src="js/local_storage_detalhes.js"></script>
-	
+
+ <script src="js/player.js"></script>
 
 </body>
 </html>

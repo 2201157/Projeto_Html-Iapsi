@@ -44,13 +44,13 @@
 	<div class="topnav" id="myTopnav">
 
   		
-		<a href="main.html" class="active">Home</a>
+		<a href="main.html">Home</a>
 
 		<a href="detalhes.html">Detalhes</a>
 
 		<a href="top10principal.html">Top Músicas</a>
 
-		<a href="favoritos.html">Favoritos</a>
+		<a href="favoritos.html" class="active">Favoritos</a>
 
 	  <button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 	  
@@ -63,70 +63,62 @@
 		</a>	    
   </div>
   
-<div id ="m_main">
+  <div id ="m_main">
 
 	<h3 id="resultado" class="panel-title">Resultados da Pesquisa</h3>
 
-	<div id = "Nome">
+<div id = "Nome">
 
 	</div>
 
-	<div id  = "body">
+<div id  = "body">
 
 	</div>
 
-	<div id = "image">
+<div id = "image">
 
 	</div>
 
 <table id="tabela">
 <tr>
-<th>Artista</th>
+<th class="alinhar">Artista</th>
 <th>Musica</th>
 <th></th>
 </tr>
 
-<tr>
-<td class="artista"><div id="artista0">
-</div></td>
-<td><div id="musica0">
-</div></td>
-<td><button id="botao1">Adicionar</button></td>
+<tr id="music-0">
+	<td class="artista" class="alinhar"><div class="music-author"></div></td>
+	<td><div class="music-title"></div></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-0")>Adicionar</button></td>
+	
 </tr>
 
-<tr>
-<td class="artista"><div id ="artista1">
-</div></td>
-<td><div id ="musica1">	
-</div></td>
-<td><button id="botao2">Adicionar</button></td>
+<tr id="music-1">
+	<td class="artista" class="alinhar"><div class="music-author"></div></td>
+	<td><div class="music-title"></div></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-1">Adicionar</button></td>
 </tr>
 
-<tr>
-<td class="artista"><div id ="artista2">
-</div></td>
-<td><div id ="musica2">	
-</div></td>
-<td><button id="botao3">Adicionar</button></td>
+<tr id="music-2">
+	<td class="artista" class="alinhar"><div class="music-author"></div></td>
+	<td><div class="music-title"></div></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-2">Adicionar</button></td>
 </tr>
 
-<tr>
-<td class="artista"><div id ="artista3">
-</div></td>
-<td><div id ="musica3">	
-</div></td>
-<td><button id="botao4">Adicionar</button></td>
-</tr>
-<tr>
-<td class="artista"><div id ="artista4">
-</div></td>
-<td><div id ="musica4">	
-</div></td>
-<td><button id="botao5">Adicionar</button></td>
+<tr id="music-3">
+	<td class="artista" class="alinhar"><div class="music-author">
+	</div></td><td><div class="music-title"></div></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-3">Adicionar</button></td>
 </tr>
 
-</table>
-</div>
+<tr id="music-4">
+	<td class="artista" class="alinhar"><div class="music-author"></div></td>
+	<td><div class="music-title"></div></td>
+	<td><button button type="button" class="add-music-button" data-ref="music-4">Adicionar</button></td>
+</tr>
+
+	</table>
+	</div>
 
 
 
@@ -200,6 +192,7 @@
 	<script type="text/javascript" src="js/pesquisar_musicas.js"></script>
 
 	<script type="text/javascript" src="js/local_storage_detalhes.js"></script>
+
 
 
 

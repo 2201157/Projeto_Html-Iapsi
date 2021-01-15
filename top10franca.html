@@ -21,14 +21,12 @@
 
 	<link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
 
-	<link rel="stylesheet" type="text/css" href="css/detalhes.css">
+
 	
-	<link rel="stylesheet" type="text/css" href="css/top10portugal.css">
+	<link rel="stylesheet" type="text/css" href="css/top10paises.css">
     
 
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-
-
 
 
 </head>
@@ -43,13 +41,14 @@
 	<div class="topnav" id="myTopnav">
 
   		
-		<a href="main.html" class="active">Home</a>
+		<a href="main.html">Home</a>
 
 		<a href="detalhes.html">Detalhes</a>
 
-		<a href="top10principal.html">Top Músicas</a>
+		<a href="top10principal.html" class="active">Top Músicas</a>
 
-		<a href="#about">Favoritos</a>
+		<a href="favoritos.html">Favoritos</a>
+
 
 	  <button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 	  
@@ -65,96 +64,152 @@
 
 
   <h1 class="titulo">França</h1>
-  <p>Escolhe o TOP Musicas:</p>
+  <p class="escolher">Escolhe o TOP Musicas:</p>
   
   <div class="dropdown">
 	<button class="dropbtn">Mais países</button>
 	<div class="dropdown-content">
+	  <a href="top10portugal.html">Portugal</a>
 	  <a href="top10espanha.html">Espanha</a>
 	  <a href="top10ucrania.html">Ucrania</a>
-	  <a href="top10portugal.html">Portugal</a>
 	  <a href="top10usa.html">USA</a>
 	</div>
   </div>
 
 
 <div id="main">
-<section class="galeria">
 
-	<div  >
+<div id="box0" class="divMusica">
+	<div class="todas">
 
-	<img id= "img0" src="">
-
-	</div>
-
-	<div  >
-
-	<img id= "img1" src="">
+	<img id= "img0" src=""   onclick="mostrarImagem(this)">
 
 	</div>
-
-	<div  >
-
-	<img id= "img2" src="">
-
+	<div class="divTexto">
+	<h2>Nome da banda: <p id="banda0"></p></h2>
+	<h2>Nome da música: <p id="musica0"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
 	</div>
-
-	<div  >
-
-	<img id= "img3" src="">
-
-	</div>
-
-	<div  >
-
-	<img id= "img4" src="">
-
-	</div>
-
-</section>
-<section class="conteiner">
-	<span onclick="this.parentElement.style.display='none'" class="btnFechar">&times;</span>
-	<img id="imagemGrande">
-</section>
-
-<section class="galeria2">
-
-	<div  >
-
-	<img id= "img5" src="">
-
-	</div>
-
-	<div  >
-
-	<img id= "img6" src="">
-
-	</div>
-
-	<div  >
-
-	<img id= "img7" src="">
-
-	</div>
-
-	<div  >
-
-	<img id= "img8" src="">
-
-	</div>
-
-	<div  >
-
-	<img id= "img9" src="">
-
-	</div>
-</section>
-<section class="conteiner">
-	<span onclick="this.parentElement.style.display='none'" class="btnFechar">&times;</span>
-	<img id="imagemGrande">
-</section>
 </div>
 
+<div id="box1" class="divMusica">
+	<div class="todas">
+
+	<img id= "img1" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+	<h2>Nome da banda: <p id="banda1"></p></h2>
+	<h2>Nome da música: <p id="musica1"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box2" class="divMusica">
+	<div class="todas">
+
+	<img id= "img2" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda2"></p></h2>
+		<h2>Nome da música: <p id="musica2"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box3" class="divMusica">
+	<div class="todas">
+
+	<img id= "img3" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda3"></p></h2>
+		<h2>Nome da música: <p id="musica3"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box4" class="divMusica">
+	<div class="todas">
+
+	<img id= "img4" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda4"></p></h2>
+		<h2>Nome da música: <p id="musica4"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box5" class="divMusica">
+	<div class="todas">
+
+	<img id= "img5" src=""   onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda5"></p></h2>
+		<h2>Nome da música: <p id="musica5"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box6" class="divMusica">
+	<div class="todas">
+
+	<img id= "img6" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda6"></p></h2>
+		<h2>Nome da música: <p id="musica6"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box7" class="divMusica">
+	<div class="todas">
+
+	<img id= "img7" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda7"></p></h2>
+		<h2>Nome da música: <p id="musica7"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box8" class="divMusica">
+	<div class="todas">
+
+	<img id= "img8" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda8"></p></h2>
+		<h2>Nome da música: <p id="musica8"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+<div id="box9" class="divMusica">
+	<div class="todas">
+
+	<img id= "img9" src=""  onclick="mostrarImagem(this)">
+
+	</div>
+	<div class="divTexto">
+		<h2>Nome da banda: <p id="banda9"></p></h2>
+		<h2>Nome da música: <p id="musica9"></p></h2>
+	<button class="referencia"><a href="lalalala">Ir para last.fm</a></button>
+	</div>
+</div>
+
+</div>
 
 	<footer class ="footer_distribuido">
  
@@ -163,13 +218,13 @@
 		<a class ="Rasmusic" href="main.html"><h3>Ras<span>Music</span></h3></a>
  
 		<p class="footer-links">
-	·	<a href="main.html">Home</a> <br />
-	·
+		<a href="main.html">Home</a> <br />
+	
 		<a href="detalhes.html">Detalhes</a> <br />
-	·
+	
 		<a href="top10principal.html">Top Músicas</a> <br />
-	·
-		<a href="#">Favoritos</a> <br />
+	
+		<a href="favoritos.html">Favoritos</a> <br />
 	
 
 		</p>
@@ -196,7 +251,7 @@
 		
 	</footer>
 
-	<script type="text/javascript" src="js/detalhes.js"></script>
+	
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
@@ -216,6 +271,10 @@
 	<script src="js/fotos_header_home.js"></script>
 
 	<script src="js/topmusicas_franca.js"></script>
+
+	<script type="text/javascript" src="js/detalhes.js"></script>
+
+
 	 
 
 

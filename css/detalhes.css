@@ -2,8 +2,9 @@
 #main{
     align-items: center;
     display: inline;
-    margin: auto;
+
 }
+
 
 body{
     margin: 0;
@@ -91,7 +92,8 @@ body{
 
 
 input[type=text], input[type=email], textarea{
-    height: 35px;
+
+    height: 40px;
 }
 
 
@@ -113,6 +115,7 @@ input[type=text], input[type=email], textarea{
 @media (max-width: 600px) {
 
     .galeria img{
+        
         width: 80px;
         margin-right: 7px;
     }

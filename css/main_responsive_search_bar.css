@@ -7,7 +7,9 @@
   font-size: 17px !important;
   border-radius: 25px !important;
 }
-
+.topnav a:link{
+  text-decoration: none;
+}
 .topnav button {
   float: right;
   display: inline-block;
@@ -48,6 +50,16 @@
     border: 1px solid #ccc !important;  
   }
 }
-  
+
+
+@media screen and (max-width: 800px) {
+
+
+  #pesquisa{
+
+    height: 50px
+  }
+
+}
 
 

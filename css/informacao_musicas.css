@@ -1,0 +1,278 @@
+
+#main1 {
+    padding-top: 50px;
+    text-align: justify;
+    padding-right: 10px;
+    padding-bottom: 50px;
+
+}
+.url{
+    float: left;
+}
+
+.h2_main{
+    padding-left: 35px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+}
+
+.h5_main{
+    padding-left: 35px;
+    font-size: 14px;
+    color: rgb(88, 199, 213);
+    display: flex;
+}
+
+#f1{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f2{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f3{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f4{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f5{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f6{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f7{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f8{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f9{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+#f10{
+    width: 500px;
+    margin-left: 100px;
+    float: left;
+    border-radius: 15%;
+}
+.proximo{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgb(88, 199, 213);
+    border-color: rgb(88, 199, 213);
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.anterior{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgb(88, 199, 213);
+    border-color: rgb(88, 199, 213);
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+@media (max-width: 992px) {
+    #f1{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f2{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f3{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f4{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f5{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f6{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f7{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f8{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f9{
+        width: 410px;
+        margin-left: 50px;
+    }
+    #f10{
+        width: 410px;
+        margin-left: 50px;
+    }
+    .h2_main{
+        display: flex;
+        font-size: 12px;
+    }
+    .h5_main{
+        font-size: 11px;
+        display: flex;
+    }
+    .proximo{
+
+        font-size: 12px;
+        margin-top: 10px;
+        margin-right: 35px;
+        padding: 12px 14px;
+        }
+    .anterior{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 35px;
+        padding: 12px 14px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    #f1{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f2{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f3{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f4{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f5{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f6{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f7{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f8{
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f9{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    #f10{
+         display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 100%;
+    }
+    .h2_main{
+        margin-top: 11px;
+        padding-left: 15px;
+        display: flex;
+        font-size: 20px;
+    }
+    .h5_main{
+        font-size: 15px;
+        padding-left: 15px;
+        display: flex;
+    }
+    .proximo{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-right: 35px;
+    padding: 10px 12px;
+    }
+    .anterior{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding: 10px 12px;
+    }
+
+}
+

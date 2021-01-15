@@ -24,7 +24,7 @@ function api (nome,image,banda,h3,p){
 
 	        $.each(album, function(key, value){
 
-	            $(image).attr("src",value.image[2]['#text'])
+	            $(image).attr("src",value.image[3]['#text'])
 	           
 
 	            

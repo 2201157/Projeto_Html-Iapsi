@@ -2,7 +2,10 @@
 #m_main{
   color: white;
   align-items: center;
-  padding: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #Nome{
@@ -41,35 +44,7 @@ td{
 }
 
 
-#botao1{
-  height: 40px;
-  border-radius: 15%;
-  font-size: 15px;
-  background-color: rgb(88, 199, 213);
-}
-
-#botao2{
-  height: 40px;
-  border-radius: 15%;
-  font-size: 15px;
-  background-color: rgb(88, 199, 213);
-}
-
-#botao3{
-  height: 40px;
-  border-radius: 15%;
-  font-size: 15px;
-  background-color: rgb(88, 199, 213);
-}
-
-#botao4{
-  height: 40px;
-  border-radius: 15%;
-  font-size: 15px;
-  background-color: rgb(88, 199, 213);
-}
-
-#botao5{
+.add-music-button{
   height: 40px;
   border-radius: 15%;
   font-size: 15px;

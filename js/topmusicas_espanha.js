@@ -30,7 +30,8 @@ $(document).ready(function(){
       
                 for(i = 0; i <=9; i++){
 
-                    
+                    $('#banda'+i).html(value.track[i].artist.name)
+                    $('#musica'+i).html(value.track[i].name)
 
                     img = JSON.stringify(value.track[i].name)
                     img_2 =  img.replace(/ /g, "+");
@@ -74,7 +75,7 @@ $.ajax({
 
         $.each(url, function(key, value){
 
-            img_url  = JSON.stringify(value.albummatches.album[0].image[2]['#text'])
+            img_url  = JSON.stringify(value.albummatches.album[0].image[3]['#text'])
 
            
             callback(img_url,i)
