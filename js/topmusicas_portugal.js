@@ -31,9 +31,9 @@ $(document).ready(function(){
                     
                     $('#banda'+i).html(value.track[i].artist.name)
                     $('#musica'+i).html(value.track[i].name)
-
+                    $("#url"+i).attr("href", value.track[i].url);
                     
-                    //$('#url'+i).append($("<a href = '" + value.track[i].url + "'></a>")).text(value.track[i].url)
+                 
                     img = JSON.stringify(value.track[i].name)
                     img_2 =  img.replace(/ /g, "+");
                     img = album_top(img_2,i)
