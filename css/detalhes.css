@@ -12,6 +12,8 @@ body{
 
 }
 #main p{
+    margin-top: 0px;
+    margin-bottom: 30px;
     padding-left: 40px;
     color: white;
     text-align: center;

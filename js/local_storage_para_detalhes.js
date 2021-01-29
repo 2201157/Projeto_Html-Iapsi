@@ -1,4 +1,4 @@
-$(".add-music-button").on("click", function () {
+$(".verDetalhes").on("click", function() {
 
 let musicRef = $(this).data("ref");
 
@@ -11,12 +11,12 @@ let musicRef = $(this).data("ref");
   sessionStorage.setItem ("author",author)
   sessionStorage.setItem ("title",title)
   
-  location.href = "falling.html"
+  location.href = "detalhesPesquisa.html"
   console.log(location.pathname)
 
 })
 
-if (document.URL.includes("falling.html")){
+if (document.URL.includes("detalhesPesquisa.html")){
 
 	 var artista =  JSON.stringify(sessionStorage.author)
 	 var nome = JSON.stringify(sessionStorage.title)
@@ -67,5 +67,3 @@ function art(nome){
 
 
 }
-
-

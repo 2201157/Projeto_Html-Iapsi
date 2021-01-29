@@ -23,6 +23,8 @@
 	<link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
 
 	<link rel="stylesheet" type="text/css" href="css/informacao_musicas.css">
+
+	<link rel="stylesheet" type="text/css" href="css/main_resultados.css">
 	
 
     
@@ -64,6 +66,78 @@
 	  <i class="fa fa-bars"></i>
 		</a>	    
   </div>
+
+
+  <div id ="m_main">
+
+	<h3 id="resultado" class="panel-title">Resultados da Pesquisa</h3>
+
+	<div id = "Nome">
+
+	</div>
+
+	<div id  = "body">
+
+	</div>
+
+	<div id = "image">
+
+	</div>
+
+<table id="tabela">
+<tr>
+<th class="alinhar">Artista</th>
+<th>Musica</th>
+<th></th>
+<th></th>
+</tr>
+
+<tr  id="music-0">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-0")>Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-0")>detalhes</button></td>	
+</tr>
+
+<tr  id="music-1">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-1">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-1")>detalhes</button></td>		
+</tr>
+
+<tr  id="music-2">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-2">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-2")>detalhes</button></td>	
+</tr>
+
+<tr  id="music-3">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-3">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-3")>detalhes</button></td>	
+</tr>
+<tr  id="music-4">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-4">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-4")>detalhes</button></td>	
+</tr>
+
+</table>
+</div>
 
 
 
@@ -130,12 +204,21 @@
  
 	<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
 
- 	<script  src="js/main_responsive_menu.js"></script>
+	<script type="text/javascript" src ="js/local_storage_para_detalhes.js"></script>
 
-	<script src="js/fotos_header_home.js"></script>
+	<script  src="js/main_responsive_menu.js"></script>
 	 
 	<script type="text/javascript" src="js/api_para_detalhes.js"></script>
 
+	<script type="text/javascript" src="js/pesquisar.js"></script>
+
+	<script type="text/javascript" src="js/pesquisar_musicas.js"></script>
+	
+	<script src="js/local_storage_detalhes.js"></script>
+
+	<script src="js/fotos_header_home.js"></script>
+
 	<script src ="js/detalhes_musicas_slowdown.js"></script>
+
 </body>
 </html>

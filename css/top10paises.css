@@ -1,6 +1,7 @@
 .titulo{
     text-align: center;
     color: white;
+    margin: 0;
     font-size: 40px;
 }
 h2{
@@ -47,7 +48,7 @@ p{
 .referencia{
   display: flex;
   color: #f2f2f2;
-  width: 50px
+  width: 137px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
