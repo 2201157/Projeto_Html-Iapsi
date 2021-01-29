@@ -24,6 +24,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/top10principal.css">
 	
+	<link rel="stylesheet" type="text/css" href="css/main_resultados.css">
 
     
 
@@ -36,20 +37,21 @@
 <body>
 
 	<header>
-
+		
 		<a href="main.html"> <img src="img/logo2.png" id ="foto_logo2"></a>
 
 	</header>
 
 	<div class="topnav" id="myTopnav">
-	
-		<a href="main.html" class="active">Home</a>
+
+  		
+		<a href="main.html">Home</a>
 
 		<a href="detalhes.html">Detalhes</a>
 
-		<a href="top10principal.html">Top Músicas</a>
+		<a href="top10principal.html" class="active">Top Músicas</a>
 
-		<a href="#about">Favoritos</a>
+		<a href="favoritos.html">Favoritos</a>
 
 	  <button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 	  
@@ -62,24 +64,97 @@
 		</a>	    
   </div>
 
+  <div id ="m_main">
+
+	<h3 id="resultado" class="panel-title">Resultados da Pesquisa</h3>
+
+	<div id = "Nome">
+
+	</div>
+
+	<div id  = "body">
+
+	</div>
+
+	<div id = "image">
+
+	</div>
+
+<table id="tabela">
+<tr>
+<th class="alinhar">Artista</th>
+<th>Musica</th>
+<th></th>
+<th></th>
+</tr>
+
+<tr  id="music-0">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-0")>Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-0")>detalhes</button></td>	
+</tr>
+
+<tr  id="music-1">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-1">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-1")>detalhes</button></td>		
+</tr>
+
+<tr  id="music-2">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-2">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-2")>detalhes</button></td>	
+</tr>
+
+<tr  id="music-3">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-3">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-3")>detalhes</button></td>	
+</tr>
+<tr  id="music-4">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-4">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-4")>detalhes</button></td>	
+</tr>
+
+</table>
+</div>
+
 
 
 <div id="main">
-	<img class="top" src="img/top10/topmusic.png">
-<section class="galeria">
+	
+	<p class="texto1">TOP 10</p>  
+	<p class="texto2">Escolha o país</p>
 
-	<a href="top10ucrania.html" class="link"><img src="img/top10/ucrania.jpg" alt="ucrania"></a>
-
-	<a href="top10espanha.html" class="link"><img src="img/top10/espanha.jpg" alt="espanha"></a>
-
-	<a href="top10franca.html" class="link"><img src="img/top10/frança.jpg" alt="frança"></a>
-
-	<a href="top10portugal.html" class="link"><img src="img/top10/portugal.jpg" alt="portugal"></a>
-
-	<a href="top10usa.html" class="link"><img src="img/top10/usa.png" alt="usa"></a>
-
-</section>
-
+	<section class="galeria">
+	
+		<a href="top10ucrania.html" class="link"><img src="img/top10/ucrania.jpg" alt="russia"></a>
+	
+		<a href="top10espanha.html" class="link"><img src="img/top10/espanha.jpg" alt="espanha"></a>
+	
+		<a href="top10franca.html" class="link"><img src="img/top10/franca.jpg" alt="frança"></a>
+	
+		<a href="top10portugal.html" class="link"><img src="img/top10/portugal.jpg" alt="portugal"></a>
+	
+		<a href="top10usa.html" class="link"><img src="img/top10/usa.png" alt="usa"></a>
+	
+	</section>
 
 
 	<footer class ="footer_distribuido">
@@ -93,9 +168,9 @@
 	
 		<a href="detalhes.html">Detalhes</a> <br />
 	
-		<a href="top10principal.html">Top Músicas Portugal</a> <br />
+		<a href="top10principal.html">Top Músicas</a> <br />
 	
-		<a href="#">Favoritos</a> <br />
+		<a href="favoritos.html">Favoritos</a> <br />
 	
 
 		</p>
@@ -121,22 +196,27 @@
  
 		
 	</footer>
-
-	<script type="text/javascript" src="js/detalhes.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
- 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
  
 	<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
 
- 	<script  src="js/main_responsive_menu.js"></script>
+	<script type="text/javascript" src ="js/local_storage_para_detalhes.js"></script>
+
+	<script  src="js/main_responsive_menu.js"></script>
+	 
+	<script type="text/javascript" src="js/api_para_detalhes.js"></script>
+
+	<script type="text/javascript" src="js/pesquisar.js"></script>
+
+	<script type="text/javascript" src="js/pesquisar_musicas.js"></script>
+	
+	<script src="js/local_storage_detalhes.js"></script>
 
 	<script src="js/fotos_header_home.js"></script>
-	 
-
 
 </body>
 </html>

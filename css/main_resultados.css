@@ -1,0 +1,152 @@
+
+.add-music-button{
+  color: white;
+}
+
+.verDetalhes{
+  color: white;
+}
+
+#m_main{
+  color: white;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#Nome{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#image{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+#body{
+  padding-bottom: 30px;
+}
+
+th{
+  height: 40px;
+  padding-left: 10px;
+  background-color: rgb(88, 199, 213);
+  font-size: 20px;
+}
+
+td{
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.artista{
+  padding-right: 30px;
+}
+
+
+.add-music-button{
+  height: 40px;
+  border-radius: 15%;
+  font-size: 15px;
+  background-color: rgb(88, 199, 213);
+}
+.verDetalhes{
+  height: 40px;
+  border-radius: 15%;
+  font-size: 15px;
+  background-color: rgb(88, 199, 213);
+}
+
+#tabela{
+  display: none;
+  padding-top: 35px;
+  margin: auto;
+  justify-content: center;
+}
+
+#resultado{
+  display: none;
+}
+
+@media (max-width: 690px) {
+
+
+  #m_main{
+    color: white;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  #Nome{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  
+  #image{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+  
+  #body{
+    padding-bottom: 30px;
+  }
+  
+  th{
+    height: 40px;
+    padding-left: 10px;
+    background-color: rgb(88, 199, 213);
+    font-size: 15px;
+  }
+  
+  td{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  
+  .artista{
+    padding-right: 30px;
+  }
+  
+  
+  .add-music-button{
+    height: 40px;
+    border-radius: 15%;
+    font-size: 12px;
+    background-color: rgb(88, 199, 213);
+  }
+  .verDetalhes{
+    height: 40px;
+    border-radius: 15%;
+    font-size: 12px;
+    background-color: rgb(88, 199, 213);
+  }
+  
+  #tabela{
+    display: none;
+    padding-top: 35px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  #resultado{
+    display: none;
+  }
+
+
+}

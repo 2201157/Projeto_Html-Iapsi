@@ -18,16 +18,13 @@ height: 400px;
 */
 
 #foto_logo2{
-  
   height: 100px;
 
 }
 
-@media only screen and (max-width: 1000px) {
-#foto_logo2{
-  
-  height: 50px;
+@media only screen and (max-width: 992px) {
+  #foto_logo2{
+    height: 50px;
+  }
 
 }
-
-	}

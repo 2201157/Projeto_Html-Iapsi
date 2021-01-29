@@ -23,13 +23,10 @@
 	<link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
 
 	<link rel="stylesheet" type="text/css" href="css/detalhes.css">
+
+	<link rel="stylesheet" type="text/css" href="css/main_resultados.css">
 	
-
-    
-
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-
-
 
 
 </head>
@@ -44,13 +41,13 @@
 	<div class="topnav" id="myTopnav">
 
   		
-		<a href="main.html" class="active">Home</a>
+		<a href="main.html">Home</a>
 
-		<a href="detalhes.html">Detalhes</a>
+		<a href="detalhes.html" class="active">Detalhes</a>
 
 		<a href="top10principal.html">Top Músicas</a>
 
-		<a href="#about">Favoritos</a>
+		<a href="favoritos.html">Favoritos</a>
 
 	  <button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
 	  
@@ -63,33 +60,111 @@
 		</a>	    
   </div>
 
+
+  <div id ="m_main">
+
+	<h3 id="resultado" class="panel-title">Resultados da Pesquisa</h3>
+
+	<div id = "Nome">
+
+	</div>
+
+	<div id  = "body">
+
+	</div>
+
+	<div id = "image">
+
+	</div>
+
+<table id="tabela">
+<tr>
+<th class="alinhar">Artista</th>
+<th>Musica</th>
+<th></th>
+<th></th>
+</tr>
+
+<tr  id="music-0">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-0")>Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-0")>detalhes</button></td>	
+</tr>
+
+<tr  id="music-1">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-1">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-1")>detalhes</button></td>		
+</tr>
+
+<tr  id="music-2">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-2">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-2")>detalhes</button></td>	
+</tr>
+
+<tr  id="music-3">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-3">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-3")>detalhes</button></td>	
+</tr>
+<tr  id="music-4">
+<td class="artista" class="alinhar"><div class="music-author">
+</div></td>
+<td><div class="music-title">	
+</div></td>
+<td><button button type="button" class="add-music-button" data-ref="music-4">Adicionar</button></td>
+<td><button button type="button" class="verDetalhes" data-ref="music-4")>detalhes</button></td>	
+</tr>
+
+</table>
+</div>
+
+
 <div id="main">
+
+	<p class="texto">Detalhes de cada Música</p>
 <section class="galeria">
 
-	<a href="xtense.html" class="link"><img src="img/fotos_carousel/xtense.png" alt="xtense"></a>
-
-	<a href="u2.html" class="link"><img src="img/fotos_carousel/u2.png" alt="u2"></a>
-
-	<a href="slowdown.html" class="link"><img src="img/fotos_carousel/slowdown.png" alt="slowdown"></a>
-
-	<a href="scorpions.html" class="link"><img src="img/fotos_carousel/scorpions.png" alt="scorpions"></a>
-
-	<a href="nickelback.html" class="link"><img src="img/fotos_carousel/nickelback.png" alt="nickelback"></a>
-
+	<div>
+	<a href="falling.html" class="link"><img src="" id="f1" alt="falling"></a>
+</div>
+<div>
+	<a href="coldplay.html" class="link"><img src=""  id="f2" alt="coldplay"></a>
+</div>
+	<a href="evanescence.html" class="link"><img src=""  id="f3" alt="evanascence"></a>
+<div>
+	<a href="nickelback.html" class="link"><img src=""  id="f4" alt="nickelback"></a>
+</div>
+<div>
+	<a href="slowdown.html" class="link"><img src=""   id="f5"alt="slowdown"></a>
+</div>
 </section>
 
 
 <section class="galeria2">
 
-	<a href="lemonade.html" class="link"><img src="img/fotos_carousel/lemonade.png" alt="lemonade"></a>
+	<a href="u2.html" class="link"><img src=""  id="f6" alt="u2"></a>
 
-	<a href="iris.html" class="link"><img src="img/fotos_carousel/iris.png" alt="iris"></a>
+	<a href="lemonade.html" class="link"><img src=""  id="f7" alt="lemonade"></a>
 
-	<a href="falling.html" class="link"><img src="img/fotos_carousel/falling.png" alt="falling"></a>
+	<a href="iris.html" class="link"><img src=""  id="f8" alt="iris"></a>
 
-	<a href="evanescence.html" class="link"><img src="img/fotos_carousel/evanascence.png" alt="evanascence"></a>
+	<a href="scorpions.html" class="link"><img src=""  id="f9" alt="scorpions"></a>
 
-	<a href="coldplay.html" class="link"><img src="img/fotos_carousel/coldplay.png" alt="coldplay"></a>
+	<a href="saintPablo.html" class="link"><img src=""  id="f10" alt="saintPablo"></a>
 
 </section>
 
@@ -103,13 +178,13 @@
 		<a class ="Rasmusic" href="main.html"><h3>Ras<span>Music</span></h3></a>
  
 		<p class="footer-links">
-	·	<a href="main.html">Home</a> <br />
-	·
+		<a href="main.html">Home</a> <br />
+	
 		<a href="detalhes.html">Detalhes</a> <br />
-	·
+	
 		<a href="top10principal.html">Top Músicas</a> <br />
-	·
-		<a href="#">Favoritos</a> <br />
+	
+		<a href="favoritos.html">Favoritos</a> <br />
 	
 
 		</p>
@@ -136,20 +211,32 @@
 		
 	</footer>
 
-	<script type="text/javascript" src="js/detalhes.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+	crossorigin="anonymous"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
- 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
  
 	<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
 
  	<script  src="js/main_responsive_menu.js"></script>
 
 	<script src="js/fotos_header_home.js"></script>
+
+	<script type="text/javascript" src="js/pesquisar.js"></script>
+
+	<script type="text/javascript" src="js/pesquisar_musicas.js"></script>
+
+	<script type="text/javascript" src="js/api_para_detalhes.js"></script>
+	
+	<script src="js/local_storage_detalhes.js"></script>
+	
+	<script type="text/javascript" src ="js/local_storage_para_detalhes.js"></script>
 	 
+
 
 
 </body>

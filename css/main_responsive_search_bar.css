@@ -7,7 +7,9 @@
   font-size: 17px !important;
   border-radius: 25px !important;
 }
-
+.topnav a:link{
+  text-decoration: none;
+}
 .topnav button {
   float: right;
   display: inline-block;
@@ -30,16 +32,12 @@
     margin: 0 !important;
     padding: 14px !important;
     border-radius: 25px !important;
-
-
-
   }
-
+}
 
 @media screen and (max-width: 800px) {
   .topnav button:not(:first-child) {display: none;}
   .topnav.responsive button{
-
     float: right;
     display: inline-block;
     text-align: left;
@@ -47,15 +45,27 @@
     margin: 0;
     padding: 14px;
     border-radius: 25px;
-
-
-
   }
-
-  }
-  
   .topnav input[type=text] {
     border: 1px solid #ccc !important;  
   }
 }
+
+#pesquisa{
+
+    height: 40px
+  }
+
+@media screen and (max-width: 800px) {
+
+
+  #pesquisa{
+
+    height: 50px
+  }
+
+}
+
+
+
 
