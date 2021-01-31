@@ -15,11 +15,32 @@
     display: flex;
 }
 
-.h5_main{
-    padding-left: 35px;
-    font-size: 14px;
-    color: rgb(88, 199, 213);
+.h2_tags{
+
+ padding-left: 35px;
+    font-size: 15px;
+    color: white;
     display: flex;
+  
+}
+
+#video{
+
+
+margin-left: 150px;
+float: left;
+border-radius: 15%;
+
+}
+
+
+
+
+.h5_main{
+    padding-left: 35px!important;
+    font-size: 14px!important;
+    color: rgb(88, 199, 213)!important;
+    display: flex!important;
 }
 
 #f1 img{
@@ -51,10 +72,13 @@
     .h2_main{
         display: flex;
         font-size: 12px;
+
     }
     .h5_main{
         font-size: 11px;
         display: flex;
+        padding-left: 15px;
+        color: rgb(88, 199, 213)!important;
     }
 
 }
@@ -62,7 +86,7 @@
 @media (max-width: 600px) {
 
     .footer_distribuido{
-        margin-top: 30px;
+        
     
     }
     #f1 img{
@@ -83,6 +107,16 @@
         font-size: 15px;
         padding-left: 15px;
         display: flex;
+        color: rgb(88, 199, 213)!important;
     }
+
+    #video{
+
+
+        margin-left: 20px;
+        float: left;
+        border-radius: 15%;
+
+        }
 
 }

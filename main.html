@@ -1,150 +1,103 @@
 <!DOCTYPE html>
+
 <html>
-<head>
 
-	<link rel="shortcut icon" href="img/logo2.png" class="logo">
+	<head>
 
-    <title>RAS Music</title>
+		<link rel="shortcut icon" href="img/logo2.png" class="logo">
 
-    <meta charset="UTF-8">
+	    <title>RAS Music</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta charset="UTF-8">
 
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-
-	<link rel="stylesheet" type="text/css" href="css/main_header.css">
-
-	<link rel="stylesheet" type="text/css" href="css/main_responsive_search_bar.css">
-
-	<link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
-
-	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-
-	<link rel="stylesheet" type="text/css" href="css/main_carrousel_responsive.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
-
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<link rel="stylesheet" type="text/css" href="css/main_resultados.css">
-
-	<link rel="stylesheet" type="text/css" href="css/player.css">
-
-
-
-</head>
-<body>
-
-	<header>
 		
-		<a href="main.html"> <img src="img/logo2.png" id ="foto_logo2"></a>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-	</header>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<div class="topnav" id="myTopnav">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 
-  		
-  		<a href="main.html" class="active" class="sublinhado">Home</a>
+		<link rel="stylesheet" type="text/css" href="css/main_header.css">
 
-  		<a class="sublinhado" href="detalhes.html">Detalhes</a>
+		<link rel="stylesheet" type="text/css" href="css/main_responsive_search_bar.css">
 
-  		<a class="sublinhado" href="top10principal.html">Top Músicas</a>
+		<link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
 
-  		<a class="sublinhado" href="favoritos.html">Favoritos</a>
+		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 
-		<button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
+		<link rel="stylesheet" type="text/css" href="css/main_carrousel_responsive.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
 		
-		<input type="text" name="pesquisa" id="pesquisa" 
-		placeholder="Pesquisa">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  			
-    	<i class="fa fa-bars"></i>
+		<link rel="stylesheet" type="text/css" href="css/main_resultados.css">
 
-  	    </a>
 
-  	    
 
-	</div>
+	</head>
 
-	<div id ="m_main">
+	<body>
 
-				<h3 id="resultado" class="panel-title">Resultados da Pesquisa</h3>
+		<header>
+			
+			<a href="main.html"> <img src="img/logo2.png" id ="foto_logo2"></a>
 
-				<div id = "Nome">
+		</header>
 
-				</div>
+		<div class="topnav" id="myTopnav">
 
-				<div id  = "body">
+	  		
+			<a href="main.html">Home</a>
 
-				</div>
+			<a href="top10principal.html">Top Músicas</a>
 
-				<div id = "image">
+			<a href="favoritos.html">Favoritos</a>
 
-				</div>
+		  	<button id="btSearch" class="btn btn-primary"><i class="fa fa-search"></i></button>
+		  
+		  	<input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisa">
 
-			<table id="tabela">
-<tr>
-<th class="alinhar">Artista</th>
-<th>Musica</th>
-<th></th>
-<th></th>
-</tr>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>	
 
-<tr  id="music-0">
-	<td class="artista" class="alinhar"><div class="music-author">
-	</div></td>
-	<td><div class="music-title">
-	</div></td>
-	<td><button button type="button" class="add-music-button" data-ref="music-0")>Adicionar</button></td>
-	<td><button button type="button" class="verDetalhes" data-ref="music-0")>detalhes</button></td>	
-</tr>
+	    </div>
 
-<tr  id="music-1">
-	<td class="artista" class="alinhar"><div class="music-author">
-	</div></td>
-	<td><div class="music-title">	
-	</div></td>
-	<td><button button type="button" class="add-music-button" data-ref="music-1">Adicionar</button></td>
-	<td><button button type="button" class="verDetalhes" data-ref="music-1")>detalhes</button></td>		
-</tr>
+		<div id ="m_main">
 
-<tr  id="music-2">
-	<td class="artista" class="alinhar"><div class="music-author">
-	</div></td>
-	<td><div class="music-title">	
-	</div></td>
-	<td><button button type="button" class="add-music-button" data-ref="music-2">Adicionar</button></td>
-	<td><button button type="button" class="verDetalhes" data-ref="music-2")>detalhes</button></td>	
-</tr>
+					<h3 id="resultado" class="panel-title">Resultados da Pesquisa</h3>
 
-<tr  id="music-3">
-	<td class="artista" class="alinhar"><div class="music-author">
-	</div></td>
-	<td><div class="music-title">	
-	</div></td>
-	<td><button button type="button" class="add-music-button" data-ref="music-3">Adicionar</button></td>
-	<td><button button type="button" class="verDetalhes" data-ref="music-3")>detalhes</button></td>	
-</tr>
-<tr  id="music-4">
-	<td class="artista" class="alinhar"><div class="music-author">
-	</div></td>
-	<td><div class="music-title">	
-	</div></td>
-	<td><button button type="button" class="add-music-button" data-ref="music-4">Adicionar</button></td>
-	<td><button button type="button" class="verDetalhes" data-ref="music-4")>detalhes</button></td>	
-</tr>
+					<div id = "Nome">
 
-			</table>
-	</div>
+					</div>
+
+					<div id  = "body">
+
+					</div>
+
+					<div id = "image">
+
+					</div>
+
+					<table id="tabela">
+
+						<tr>
+							<th class="alinhar">Artista</th>
+
+							<th>Musica</th>
+
+							<th></th>
+
+							<th></th>
+
+						</tr>
+
+					</table>
+
+		</div>
 
 		<div id="tamanho">
 
@@ -188,9 +141,9 @@
 
         					<h3 id="f1_inner"></h3>
 
-        					<p id="f1_inner_p"  method = "POST"></p>
+        					<p id="f1_inner_p"></p>
 
-        					<a href="falling.html" action ="falling.html" id = "bora">Ver mais detalhes</a>
+        					<a href="detalhesPesquisa.html" data-ref="1" class ="detalhes">Ver mais detalhes</a>
 
       					</div>
 
@@ -207,7 +160,7 @@
 
         					<p id="f2_inner_p"></p>
 
-        					<a href="coldplay.html">Ver mais detalhes</a>
+        					<a href="detalhesPesquisa.html" data-ref="2" class ="detalhes">Ver mais detalhes</a>
 
       					</div>
 
@@ -224,7 +177,7 @@
 
 					        <p id="f3_inner_p"></p>
 
-					        <a href="evanescence.html">Ver mais detalhes</a>
+					        <a href="detalhesPesquisa.html" data-ref="3" class ="detalhes">Ver mais detalhes</a>
 
 			      		</div>
 
@@ -241,7 +194,7 @@
 
 					        <p id="f4_inner_p"></p>
 
-					        <a href="nickelback.html">Ver mais detalhes</a>
+					        <a href="detalhesPesquisa.html" data-ref="4" class ="detalhes">Ver mais detalhes</a>
 
       					</div>
 
@@ -258,7 +211,7 @@
 
 				        <p id="f5_inner_p"></p>
 
-				        <a href="slowdown.html">Ver mais detalhes</a>
+				        <a href="detalhesPesquisa.html" data-ref="5" class ="detalhes">Ver mais detalhes</a>
 
       				</div>
 
@@ -274,7 +227,7 @@
 
 				        <p id="f6_inner_p"></p>
 
-				        <a href="u2.html">Ver mais detalhes</a>
+				        <a href="detalhesPesquisa.html" data-ref="6" class ="detalhes">Ver mais detalhes</a>
 
       				</div>
 
@@ -291,7 +244,7 @@
 
 				        <p  id="f7_inner_p"></p>
 
-				        <a href="lemonade.html">Ver mais detalhes</a>
+				        <a href="detalhesPesquisa.html" data-ref="7" class ="detalhes">Ver mais detalhes</a>
 
     				</div>
 
@@ -308,7 +261,7 @@
 
 				        <p id="f8_inner_p"></p>
 
-				        <a href="iris.html">Ver mais detalhes</a>
+				        <a href="detalhesPesquisa.html" data-ref="8" class ="detalhes">Ver mais detalhes</a>
 
       				</div>
 
@@ -325,7 +278,7 @@
 
 				        <p id="f9_inner_p"></p>
 
-				        <a href="scorpions.html">Ver mais detalhes</a>
+				        <a href="detalhesPesquisa.html" data-ref="9" class ="detalhes">Ver mais detalhes</a>
 
       				</div>
 
@@ -342,7 +295,7 @@
 
 			        <p id="f10_inner_p"></p>
 
-			        <a href="xtense.html">Ver mais detalhes</a>
+			        <a href="detalhesPesquisa.html" data-ref="10" class ="detalhes" >Ver mais detalhes</a>
 
       			</div>
 
@@ -357,17 +310,17 @@
 
   		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
 
-    	<span class="glyphicon glyphicon-chevron-left"></span>
+	    	<span class="glyphicon glyphicon-chevron-left"></span>
 
-    	<span class="sr-only">Previous</span>
+	    	<span class="sr-only">Previous</span>
 
   		</a>
 
   		<a class="right carousel-control" href="#myCarousel" data-slide="next">
 
-    	<span class="glyphicon glyphicon-chevron-right"></span>
+	    	<span class="glyphicon glyphicon-chevron-right"></span>
 
-    	<span class="sr-only">Next</span>
+	    	<span class="sr-only">Next</span>
 
   		</a>
 
@@ -376,120 +329,70 @@
 
 	</div>
           
-		<div>
 
-	    <audio src="./assets/music/Evanescence.mp3" id="song"></audio>
+		<footer class ="footer_distribuido">
+	 
+			<div class="footer-left">
+	   
+				<a class ="Rasmusic" href="main.html"><h3>Ras<span>Music</span></h3></a>
+		 
+				<p class="footer-links">
 
-	    <div class="container">  
-	        <div class="box"></div>      
-	        
-	        
-	        <img src="./assets/icons/play.png" onclick="playPause()" id="play-pause" />
-	        <img src="./assets/icons/forward.png" onclick="nextSong()" id="next-song" />
-	        <img src="./assets/icons/backward.png" onclick="previousSong()" id="previous-song" />
+					<a href="main.html">Home</a><br/>
 
-	        <div class="song-artist">Evanescence</div>
-	        <div class="song-title">Lithium</div>
+					<a href="top10principal.html">Top Músicas</a><br/>
+				
+					<a href="favoritos.html">Favoritos</a><br/>
 
-	        <!-- Input element for progress bar - min=0 starting value of every song - max length will change per song so leave empty -->
-	        
-	        <input 
-	            type="range" 
-	            id="progress-bar" 
-	            min="0" 
-	            max="" 
-	            value="0" 
-	            onchange="changeProgressBar()"
-	        />
+				</p>
 
-	        <div class="currentTime"></div>
-	        <div class="durationTime"></div>
-	    </div>
-
- 	</div>
-
-	</div>
-
-	<!-- Setas da Esquerda e Direita button type="button" onclick="loadXMLDoc()">Get my CD collection</button> -->
-
-	 <!--<table id="demo"></table>!-->
-
-
-
-	<footer class ="footer_distribuido">
- 
-		<div class="footer-left">
-   
-			<a class ="Rasmusic" href="main.html"><h3>Ras<span>Music</span></h3></a>
- 
-			<p class="footer-links">
-
-			<a href="main.html">Home</a> <br />
-		
-			<a href="detalhes.html">Detalhes</a> <br />
-		
-			<a href="top10principal.html">Top Músicas</a> <br />
-		
-			<a href="favoritos.html">Favoritos</a> <br />
-	
-
-			</p>
- 
-		
-		</div>
- 
+		  	</div>
+	 
 			<div class="footer-center">
- 
-				<div>
-		
+			
 				<p><a href="formulario.html">Enviar Opinião</a></p>
 
-				</div>
- 
 			</div>
+	 
+			<div class="footer-right">
+	 
+				<p class="footer-company-about">
 
- 
-		<div class="footer-right">
+					<span>Copyright 2021 by: <br /></span>Alexandre Levchenko<br />Rodrigo Peres<br />Sandro Pinto<br />2021 - Projeto (Web - Cliente)
 
- 
-			<p class="footer-company-about">
+				</p>
 
-			<span>Copyright 2021 by: <br /></span>
+			</div>
+			
+		</footer>
 
-				Alexandre Levchenko<br />Rodrigo Peres<br />Sandro Pinto<br />2021 - Projeto (Web - Cliente)
-
-			</p>
- 
 		
-	</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
-	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-	crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+		crossorigin="anonymous"></script>
 
 
- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
- 
-	<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/> 
+	 
+		<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/> 
 
- 	<script  src="js/main_responsive_menu.js"></script>
+	 	<script  src="js/main_responsive_menu.js"></script>
 
- 	<script  src="js/fotos_header_home.js"></script>
+	 	<script  src="js/fotos_header_home.js"></script>
 
-	<script type="text/javascript" src="js/pesquisar.js"></script>
+		<script type="text/javascript" src="js/pesquisar.js"></script>
 
-	<script type="text/javascript" src="js/pesquisar_musicas.js"></script>
+		<script type="text/javascript" src="js/musicas_main.js"></script>
 
-	<script type="text/javascript" src="js/musicas_main.js"></script>
+		<script type="text/javascript" src ="js/local_storage_para_pesquisa_detalhes.js"></script>
+		
+		<script src="js/local_storage_playlist.js"></script>
 
-	<script type="text/javascript" src ="js/local_storage_para_detalhes.js"></script>
-	
-	<script src="js/local_storage_detalhes.js"></script>
 
- <script src="js/player.js"></script>
+	 	<script type="text/javascript" src="js/api_video.js"></script>
 
-</body>
+	</body>
+
 </html>

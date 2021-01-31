@@ -1,155 +1,176 @@
 <!DOCTYPE html>
+
 <html>
-<head>
 
-	<link rel="shortcut icon" href="img/logo2.png"/>
+	<head>
 
-    <title>RAS Music</title>
+		<link rel="shortcut icon" href="img/logo2.png"/>
 
-    <meta charset="UTF-8">
+	    <title>RAS Music</title>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta charset="UTF-8">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" type="text/css" href="css/main_header.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 
-	<link rel="stylesheet" type="text/css" href="css/main_responsive_search_bar.css">
+		<link rel="stylesheet" type="text/css" href="css/main_header.css">
 
-    <link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
-    
-	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+		<link rel="stylesheet" type="text/css" href="css/main_responsive_search_bar.css">
 
+	    <link rel="stylesheet" type="text/css" href="css/main_footer_responsivo.css">
+	    
+		<link rel="stylesheet" type="text/css" href="css/formulario.css">
 
-	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 
+	</head>
 
-</head>
-<body>
+	<body>
 
-	<header>
+		<header>
+			
+			<a href="main.html"> <img src="img/logo2.png" id ="foto_logo2"></a>
+
+		</header>
+
 		
-		<a href="main.html"> <img src="img/logo2.png" id ="foto_logo2"></a>
 
-	</header>
+		<div class="topnav" id="myTopnav">
 
-	
+	  		
+	  		<a href="main.html">Home</a>
 
-	<div class="topnav" id="myTopnav">
+	  		<a href="top10principal.html">Top Músicas</a>
 
-  		
-  		<a href="main.html">Home</a>
+	  		<a href="favoritos.html">Favoritos</a>
 
-  		<a href="detalhes.html">Detalhes</a>
+	  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	  			
+	    	<i class="fa fa-bars"></i></a>
 
-  		<a href="top10principal.html">Top Músicas</a>
-
-  		<a href="favoritos.html">Favoritos</a>
-
-
-  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-  			
-    	<i class="fa fa-bars"></i>
-		  </a>	    
-	</div>
-	
-
-	<div id="imagem">
-		<img src="img/formulario2.png" class="imagem2" alt="RAS Music">
-	</div>
-
-    <form name="form" class="formulario" method="POST" onsubmit="return validar(this)" action="php/form.php"> 
-        <p>Preencha o formulário abaixo</p>
-        
-        <div class="field">
-            <label for="nome">Nome:</label>
-		<input type="text" id="primeiro" name="primeiro" placeholder="Primeiro*" required>
-		<input type="text" id="segundo" name="segundo" placeholder="Último*" required>
 		</div>
-        <div class="field">
-            <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone*">
-        </div>
-
-        <div class="field">
-            <label for="email">E-Mail:</label>
-            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required><br><br>
-        </div>        
-		<div class="field" class="mensagem">
-            <label for="mensagem">Gostou do site?</label>
-			<pre class="satisfeito">Pouco satisfeito  <input class="nivel" type="range" name="satisfacao" min="0" max="10">  Muito satisfeito</pre><br>
-		</div>
-        <div class="field">
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
-		</div>
-
-		<hr class="linha">
-		<div class="submit">
-		<input type="submit" name="action" value="SUBMETER FORMULÁRIO">
-		</div>
-	</form>
-
-
-
-
-
-
-	<footer class ="footer_distribuido">
- 
-		<div class="footer-left">
-   
-		<a class ="Rasmusic" href="main.html"><h3>Ras<span>Music</span></h3></a>
-
-		<p class="footer-links">
-		<a href="main.html">Home</a> <br />
-	
-		<a href="detalhes.html">Detalhes</a> <br />
-	
-		<a href="top10principal.html">Top Músicas</a> <br />
-	
-		<a href="#">Favoritos</a> <br />
-	
-
-		</p>
- 
 		
+
+		<div id="imagem">
+
+			<img src="img/formulario2.png" class="imagem2" alt="RAS Music">
+
 		</div>
- 
-		<div class="footer-center">
- 
-		<div>
-		
-		<p><a href="formulario.html">Enviar Opinião</a></p>
-		</div>
- 
-		</div>
- 
-		<div class="footer-right">
- 
-		<p class="footer-company-about">
-		<span>Copyright 2021 by: <br /></span>
-	Alexandre Levchenko<br />Rodrigo Peres<br />Sandro Pinto<br />2021 - Projeto (Web - Cliente)
-		</p>
- 
-		
-	</footer>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	    <form name="form" class="formulario" method="POST" onsubmit="return validar(this)" action="php/form.php">
 
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	        <p>Preencha o formulário abaixo</p>
+	        
+	        <div class="field">
 
- 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
- 
-	<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
+	            <label for="nome">Nome:</label>
 
- 	<script  src="js/main_responsive_menu.js"></script>
+				<input type="text" id="primeiro" name="primeiro" placeholder="Primeiro*" required>
 
-	<script src="js/fotos_header_home.js"></script>
+				<input type="text" id="segundo" name="segundo" placeholder="Último*" required>
+
+			</div>
+
+	        <div class="field">
+
+	            <label for="telefone">Telefone:</label>
+
+	            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone*">
+
+	        </div>
+
+	        <div class="field">
+
+	            <label for="email">E-Mail:</label>
+
+	            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required><br><br>
+
+	        </div>
+
+			<div class="field" class="mensagem">
+
+	            <label for="mensagem">Gostou do site?</label>
+
+				<pre class="satisfeito">Pouco satisfeito  <input class="nivel" type="range" name="satisfacao" min="0" max="10">  Muito satisfeito</pre><br>
+
+			</div>
+
+	        <div class="field">
+
+	            <label for="mensagem">Mensagem:</label>
+
+	            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+
+			</div>
+
+			<hr class="linha">
+
+			<div class="submit">
+
+				<input type="submit" name="action" value="SUBMETER FORMULÁRIO" data-ref="form">
+
+			</div>
+
+		</form>
+
+		<footer class ="footer_distribuido">
 	 
+			<div class="footer-left">
+	   
+				<a class ="Rasmusic" href="main.html"><h3>Ras<span>Music</span></h3></a>
+
+				<p class="footer-links">
+
+					<a href="main.html">Home</a><br/>
+				
+					<a href="top10principal.html">Top Músicas</a><br/>
+				
+					<a href="#">Favoritos</a><br/>
+			
+				</p>
+	 
+			</div>
+	 
+			<div class="footer-center">
+	 
+				<div>
+				
+					<p><a href="formulario.html">Enviar Opinião</a></p>
+
+				</div>
+	 
+			</div>
+	 
+			<div class="footer-right">
+	 
+				<p class="footer-company-about">
+
+					<span>Copyright 2021 by: <br /></span>Alexandre Levchenko<br />Rodrigo Peres<br />Sandro Pinto<br />2021 - Projeto (Web - Cliente)
+
+				</p>
+				
+			</div>
+	 
+			
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	 
+		<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"> 
+
+	 	<script  src="js/main_responsive_menu.js"></script>
+
+		<script src="js/fotos_header_home.js"></script>
+		 
 
 
-</body>
+	</body>
+
 </html>
