@@ -53,11 +53,26 @@
 }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
 
 .galeria img{
     width: 80px;
     margin-right: 10px;
+}
+#main .texto1 {
+    font-size: 35px;
+}
+
+#main .texto2 {
+    font-size: 15px;
+}
+}
+
+@media (max-width: 500px) {
+
+.galeria img{
+    width: 54px;
+    margin-right: 5px;
 }
 #main .texto1 {
     font-size: 35px;

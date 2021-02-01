@@ -7,11 +7,16 @@ color: white;
     align-content: center;
 
 }
+.titulo1{
+    text-align: center;
+    padding-bottom: 25px;
 
-.musicaFav{
-    margin: 0px;
+}
+
+.titulo2{
     font-size: 30px;
-    padding-left: 40px;
+    padding-left: 20px;
+    text-transform: uppercase;
 }
 
 .favBotao{
@@ -23,4 +28,33 @@ color: white;
     touch-action: manipulation;
     border: 1px solid;
     
+}
+.imagem{
+width: 400px;
+
+
+}
+@media (max-width: 690px) {
+
+    .titulo1{
+        font-size: 18px;
+    }
+
+    .titulo2{
+        font-size: 18px;
+    }
+
+    .imagem{
+        width: 310px;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+
+    .imagem{
+        width: 240px;
+    }
+
 }

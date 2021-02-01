@@ -83,9 +83,9 @@ function musicas_10(){//Inicio da função//
 
                                 <div class="divTexto">
 
-                                    <h2>Nome da banda: <p id="banda${i}"></p></h2>
+                                    <h2>Nome da banda: <p class="info_top" id="banda${i}"></p></h2>
 
-                                    <h2>Nome da música: <p id="musica${i}"></p></h2>
+                                    <h2>Nome da música: <p class="info_top" id="musica${i}"></p></h2>
 
                                     <a class="referencia" id ="url${i}" href="" target="_blank" class="button">Ir para last.fm </a>
 

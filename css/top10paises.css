@@ -1,57 +1,68 @@
+
 .titulo{
-    text-align: center;
-    color: white;
-    margin: 0;
-    font-size: 40px;
+  width: 300px;
+  float: left;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  color: white;
+  margin: 0px;
+  font-size: 40px;
 }
+
 h2{
   color: rgb(0, 179, 255);
 }
+
 .escolher{
-  padding-left: 40px;
+  width: 310px;
   color: white;  
   font-size: 25px;
-  
+  float: right;
+}
+
+#box0{
+  margin-top: 130px;
 }
 
 .todas img{
-
+  margin-left: 30px;
   margin-right: 200px;
   margin: 0px;
   width: 304px;
   border-radius: 15%;
-
 }
+
 .divMusica{
-height: 280px;
-margin-top: 50px;
+  height: 280px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
 
-}
 .divMusica div{
-  float: left;
-  
+  float: left; 
 }
+
 .divMusica p button{
-float: right;
-}
-.divTexto{
-  margin-left: 20px;
-  margin-top: 10px;
   float: right;
 }
 
+.divTexto{
+  margin-left: 20px;
+  margin-top: 0px;
+  float: right;
+}
 
-p{
-
+.info_top{
   font-size: 20px;
   color: white;
 }
+
 .referencia{
   display: flex;
   color: #f2f2f2;
-  width: 137px;
+  width: 125px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
   border-radius: 10px;
@@ -59,47 +70,180 @@ p{
   border-color: rgb(0, 179, 255);
 }
 
+.add-music-button{
+  height: 40px;
+  font-size: 15px;
+  background-color: rgb(0, 179, 255);
+  border-color: rgb(0, 179, 255);
+}
+
 .dropbtn {
-  
-    background-color: rgb(88, 199, 213);
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+  background-color: rgb(88, 199, 213);
+  color: white;
+  padding: 15px;
+  font-size: 16px;
 }
   
 .dropdown {
-  margin-right: 100px;
+  margin-top: 15px;
+  margin-right: 40px;
   float: right;
-  margin-left: 40px;
-    position: relative;
-    display: inline-block;
-    padding-bottom: 20px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
 }
   
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 111px;
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
 }
   
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
   
 .dropdown-content a:hover {
-      background-color: #ddd;
+  background-color: #ddd;
 }
   
 .dropdown:hover .dropdown-content {
-      display: block; 
+  display: block; 
 }
   
 .dropdown:hover .dropbtn {
-      background-color: rgb(10, 135, 152);
+  background-color: rgb(10, 135, 152);
+}
+
+@media (max-width: 890px) {
+
+  .escolher{
+    width: 190px;
+    padding-top: 15px;
+    font-size: 15px;
+  }
+
+  .todas img{
+    width: 200px;
+  }
+
+  .info_top{
+    font-size: 13px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  .add-music-button {
+    height: 25px;
+    font-size: 10px;
+    background-color: rgb(0, 179, 255);
+    border-color: rgb(0, 179, 255);
+  }
+
+  .referencia{
+    width: 83px;
+    padding: 7px 7px;
+    font-size: 11px;
+  }
+  
+  .divMusica{
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+
+}
+
+@media (max-width: 660px) {
+
+  #box0{
+    margin-top: 170px;
+    width: auto;
+  }
+
+  .escolher{
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .titulo{
+    padding-left: 40px;
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 510px) {
+
+  .titulo{
+    width: 400px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .titulo{
+    padding-left: 10px;
+    width: 300px;
+  }
+
+}
+
+@media (max-width: 420px) {
+
+  .titulo{
+    width: 290px;
+  }
+
+  .escolher{
+    padding-left: 10px;
+    width: 160px;
+    padding-top: 15px;
+    font-size: 12px;
+  }
+
+  .todas img{
+    width: 140px;
+  }
+
+  .info_top{
+    font-size: 9px;
+  }
+
+  h2{
+    font-size: 12px;
+  }
+
+  .add-music-button {
+    height: 25px;
+    font-size: 10px;
+    background-color: rgb(0, 179, 255);
+    border-color: rgb(0, 179, 255);
+  }
+
+  .referencia{
+    width: 83px;
+    padding: 7px 7px;
+    font-size: 11px;
+  }
+  
+  .divMusica{
+    height: 170px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  .dropdown {
+    margin-right: 10px;
+  }
+
 }

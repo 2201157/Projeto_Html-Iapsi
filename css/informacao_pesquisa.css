@@ -17,7 +17,7 @@
 
 .h2_tags{
 
- padding-left: 35px;
+    padding-left: 35px;
     font-size: 15px;
     color: white;
     display: flex;
@@ -26,14 +26,9 @@
 
 #video{
 
-
-margin-left: 150px;
-float: left;
-border-radius: 15%;
+    margin-left: 150px;
 
 }
-
-
 
 
 .h5_main{
@@ -53,7 +48,7 @@ border-radius: 15%;
 }
 
 .footer_distribuido{
-	margin-top: 240px;
+	margin-top: 50px;
 
 }
 
@@ -80,13 +75,14 @@ border-radius: 15%;
         padding-left: 15px;
         color: rgb(88, 199, 213)!important;
     }
+    
 
 }
 
 @media (max-width: 600px) {
 
     .footer_distribuido{
-        
+        margin-top: 200px;   
     
     }
     #f1 img{
